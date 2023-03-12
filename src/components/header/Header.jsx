@@ -4,7 +4,7 @@ import './header.css';
 const Header = () => {
   return (
     <header className="header">
-        <nan className="nav container">
+        <div className="nav container">
             <a href="index.html" className="nav__logo">Smith</a>
 
             <div className="nav__menu">
@@ -44,10 +44,15 @@ const Header = () => {
                             <i className="uil uil-message nav__icon"></i> Contact
                         </a>
                     </li>
-                    
                 </ul>
+
+                <i class="uil uil-times nav__close"></i>
             </div>
-        </nan>
+
+            <div className="nav__toggle">
+                <i class="uil uil-apps"></i>
+            </div>
+        </div>
     </header>
   )
 }
