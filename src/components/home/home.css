@@ -20,6 +20,21 @@
     color: var(--title-color-dark);
 }
 
+.home__title {
+    font-size: var(--semi-big-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.home__title svg {
+    font-size: var(--big-font-size);
+}
+
+.home__hand {
+    width: 38px;
+    height: 38px;
+    margin-left: 0.4rem;
+}
+
 .home__img {
     background: url(../../assets//profile.jpg);
     background-repeat: no-repeat;
