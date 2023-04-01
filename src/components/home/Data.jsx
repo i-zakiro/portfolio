@@ -57,7 +57,7 @@ const Data = () => {
         <h3 className="home__subtitle">Front-end Разработчик</h3>
         <p className="home__description">Я начинающий Фронтенд разработчик, живу в Бишкеке, и мне очень понравилось программировать</p>
         <a href="#contact" className="button button--flex">
-            Сказать привет 
+            Сказать привет
             <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"

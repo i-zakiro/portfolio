@@ -35,6 +35,29 @@
     margin-left: 0.4rem;
 }
 
+.home__subtitle {
+    position: relative;
+    font-size: var(--h3-font-size);
+    padding-left: 5.0rem;
+    font-weight: var(--font-normal);
+    margin-bottom: var(--mb-1);
+}
+
+.home__subtitle::before {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: var(--text-color);
+    left: 0;
+    top: 1rem;
+}
+
+.home__description {
+    max-width: 400px;
+    margin-bottom: var(--mb-3);
+}
+
 .home__img {
     background: url(../../assets//profile.jpg);
     background-repeat: no-repeat;
